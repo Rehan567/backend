@@ -40,7 +40,7 @@ app.use(middleware);
 
 // Routes
 app.get("/", (req, res) => {
-  res.send("hello moto");
+  res.send("hello there!");
 });
 
 app.get('/abouts', (req, res) => {
